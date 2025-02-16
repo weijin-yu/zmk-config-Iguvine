@@ -23,7 +23,7 @@
    &kp Z &kp X &kp C &kp V &kp B &kp LCTRL &kp LCMD &kp RCMD &kp RCTRL &kp N &kp M &kp COMMA &kp DOT &kp FSLH
    &kp HOME &kp PG_UP &kp PG_DN &kp END &kp SPACE &kp BSPC &kp LSHIFT &kp RSHIFT &kp ENTER &kp SPACE &kp LEFT &kp DOWN &kp UP &kp RIGHT
                         >;
-                        sensor-bindings = <&inc_dec_kp C_PREV C_NEXT V&inc_dec_kp C_VOL_UP C_VOL_DN>;
+                        sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
         };
 };
