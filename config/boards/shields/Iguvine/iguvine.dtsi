@@ -31,9 +31,9 @@
                     <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
-};
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder>,<&right_encoder>;
         triggers-per-rotation = <40>;
     };
+};
