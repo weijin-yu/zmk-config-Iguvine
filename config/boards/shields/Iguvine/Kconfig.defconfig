@@ -1,7 +1,4 @@
 if SHIELD_IGUVINE_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "IGUVINE"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
